@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
+3<%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,8 +10,5 @@
 </head>
 <body>
 	<!-- <jsp:include page="javascript.js" flush="true"/>  -->
-	<script type="text/javascript">
-		document.write("Hello World!");
-	</script>
 </body>
 </html>
