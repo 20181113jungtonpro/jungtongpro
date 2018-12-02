@@ -1,6 +1,10 @@
+<%@page import="javax.annotation.processing.FilerException"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" 
 	pageEncoding="UTF-8" %>
+	
 	<% request.setCharacterEncoding("utf-8"); %>
+	<%@ page import="java.io.*" %>
+	<%@ page import="java.util.StringTokenizer" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,7 +34,35 @@
                     <h1><%= id %></h1>
                     <hr>
                     <!-- 내용 -->
-                    <td class="texts">ad</td>
+                    <td>
+                    <%
+					BufferedReader br = null;
+					String texts = new String();
+					String filePath = application.getRealPath("/WEB-INF/LinuxData/" + id + ".txt");
+					try {
+						br = new BufferedReader(new FileReader(filePath));
+						while (true) {
+							String str = br.readLine();		// 줄 단위로 데이터 읽기
+							if (str == null) {
+								break;
+							}
+							out.println(str + "<br>");
+						}
+					} catch (FileNotFoundException fnfe) {
+						out.println("이런 명령어 없음");
+					}
+					catch (EOFException eofe) {
+					}
+					catch (IOException e) {
+						out.println("파일을 읽을 수 없습니다.");
+					} finally {
+						try {
+							br.close();
+						} catch (Exception e) {
+						}
+					}
+					%>
+                    </td>
                 </tr>
             </tbody>
         </table>

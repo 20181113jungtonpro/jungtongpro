@@ -32,6 +32,7 @@
     <br>
     <br>
     
+    <!-- form method="GET" id="search_bar" action="NewFile.jsp" -->
     <form method="GET" id="search_bar" action="search.jsp">
         <input type="text" name="search_thing" id="search_input">
         <input type="submit" value="검색" id="search_button">

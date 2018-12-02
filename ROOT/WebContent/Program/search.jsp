@@ -1,3 +1,4 @@
+<%@page import="javax.annotation.processing.FilerException"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" 
 	pageEncoding="UTF-8" %>
 	
@@ -15,6 +16,7 @@
 </head>
 
 <body>
+	<% String id = request.getParameter("search_thing"); %>
     <div id="top" class="bar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <img src="./assets/dic.png" id="dic">
@@ -28,47 +30,30 @@
             <thead></thead>
             <tbody>
                 <tr>
-                	<%
-					String id = request.getParameter("search_thing");
-					StringTokenizer stok = null;
+                	<!-- 제목 -->
+                    <h1><%= id %></h1>
+                    <hr>
+                    <!-- 내용 -->
+                    <td>
+                    <%
 					BufferedReader br = null;
-					String title = new String();
-					String str = new String();
 					String texts = new String();
-					boolean not = false;
+					String filePath = application.getRealPath("/WEB-INF/LinuxData/" + id + ".txt");
 					try {
-						String filePath = application.getRealPath("/WEB-INF/Data.txt");
 						br = new BufferedReader(new FileReader(filePath));
 						while (true) {
-							str = br.readLine();		// 줄 단위로 데이터 읽기
+							String str = br.readLine();		// 줄 단위로 데이터 읽기
 							if (str == null) {
 								break;
 							}
-							stok = new StringTokenizer(str, "%%");
-							while (stok.hasMoreTokens()) {
-								String token = stok.nextToken();
-								if (stok.countTokens() != 1) {
-									texts = token;
-								} else {
-									title = token;
-								}
-								
-								if (title.equals(id)) {
-									not = false;
-									break;
-								} else {
-									not = true;
-								}
-							}
-							if (not) {
-								texts = "이런 명령어는 없습니다. 다시 입력하세요";
-								title = texts;
-								break;
-							}
+							out.println(str + "<br>");
 						}
 					} catch (FileNotFoundException fnfe) {
-						out.println("파일 없음");
-					} catch (IOException e) {
+						out.println("이런 명령어 없음");
+					}
+					catch (EOFException eofe) {
+					}
+					catch (IOException e) {
 						out.println("파일을 읽을 수 없습니다.");
 					} finally {
 						try {
@@ -77,11 +62,7 @@
 						}
 					}
 					%>
-                	<!-- 제목 -->
-                    <h1><%= title %></h1>
-                    <hr>
-                    <!-- 내용 -->
-                    <td><%= texts %></td>
+                    </td>
                 </tr>
             </tbody>
         </table>
