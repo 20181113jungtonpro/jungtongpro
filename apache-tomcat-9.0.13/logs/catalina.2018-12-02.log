@@ -390,3 +390,194 @@ Caused by: java.net.BindException: Address already in use: bind
 02-Dec-2018 17:09:00.762 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
 02-Dec-2018 17:09:00.767 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
 02-Dec-2018 17:09:00.772 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+02-Dec-2018 17:40:23.634 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+02-Dec-2018 17:40:23.638 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+02-Dec-2018 17:40:23.639 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+02-Dec-2018 17:40:23.640 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+02-Dec-2018 17:40:23.644 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+02-Dec-2018 17:40:23.644 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Dec-2018 17:40:23.645 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_191\jre
+02-Dec-2018 17:40:23.645 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+02-Dec-2018 17:40:23.645 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Dec-2018 17:40:23.646 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\응용\jungtongpro\apache-tomcat-9.0.13
+02-Dec-2018 17:40:23.646 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\응용\jungtongpro\apache-tomcat-9.0.13
+02-Dec-2018 17:40:23.647 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\응용\jungtongpro\apache-tomcat-9.0.13\conf\logging.properties
+02-Dec-2018 17:40:23.647 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Dec-2018 17:40:23.647 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Dec-2018 17:40:23.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Dec-2018 17:40:23.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Dec-2018 17:40:23.652 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\응용\jungtongpro\apache-tomcat-9.0.13
+02-Dec-2018 17:40:23.653 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\응용\jungtongpro\apache-tomcat-9.0.13
+02-Dec-2018 17:40:23.654 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\응용\jungtongpro\apache-tomcat-9.0.13\temp
+02-Dec-2018 17:40:23.655 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\cbg17\AppData\Local\Microsoft\WindowsApps;;.]
+02-Dec-2018 17:40:23.851 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Dec-2018 17:40:24.117 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Dec-2018 17:40:24.136 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Dec-2018 17:40:24.139 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Dec-2018 17:40:24.142 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1010 ms
+02-Dec-2018 17:40:24.193 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Dec-2018 17:40:24.193 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+02-Dec-2018 17:40:24.221 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\ROOT.war]
+02-Dec-2018 17:40:24.255 정보 [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\ROOT] was found with a last modified time that did not match the associated WAR. It will be deleted.
+02-Dec-2018 17:40:25.060 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Dec-2018 17:40:25.144 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\ROOT.war] has finished in [922] ms
+02-Dec-2018 17:40:25.146 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\docs]
+02-Dec-2018 17:40:25.366 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Dec-2018 17:40:25.370 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\docs] has finished in [225] ms
+02-Dec-2018 17:40:25.373 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\examples]
+02-Dec-2018 17:40:25.939 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Dec-2018 17:40:26.004 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\examples] has finished in [632] ms
+02-Dec-2018 17:40:26.005 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\host-manager]
+02-Dec-2018 17:40:26.206 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Dec-2018 17:40:26.217 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\host-manager] has finished in [212] ms
+02-Dec-2018 17:40:26.218 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\manager]
+02-Dec-2018 17:40:26.406 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Dec-2018 17:40:26.410 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\manager] has finished in [192] ms
+02-Dec-2018 17:40:26.414 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Dec-2018 17:40:26.430 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+02-Dec-2018 17:40:26.436 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 2293 ms
+02-Dec-2018 17:41:14.910 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Dec-2018 17:41:14.911 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Dec-2018 17:41:15.292 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Dec-2018 17:41:15.625 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Dec-2018 17:41:15.665 경고 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.URLStreamHandler.setURL(URLStreamHandler.java:538)
+ java.net.URLStreamHandler.parseURL(URLStreamHandler.java:310)
+ sun.net.www.protocol.file.Handler.parseURL(Handler.java:67)
+ java.net.URL.<init>(URL.java:622)
+ java.net.URL.<init>(URL.java:490)
+ java.net.URL.<init>(URL.java:439)
+ java.net.URI.toURL(URI.java:1089)
+ org.apache.catalina.webresources.FileResource.getURL(FileResource.java:261)
+ org.apache.catalina.webresources.CachedResource.getURL(CachedResource.java:317)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:909)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1026)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+02-Dec-2018 17:41:15.713 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Dec-2018 17:41:15.722 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Dec-2018 17:41:15.725 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Dec-2018 17:41:15.727 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+02-Dec-2018 17:41:21.336 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+02-Dec-2018 17:41:21.341 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+02-Dec-2018 17:41:21.341 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+02-Dec-2018 17:41:21.342 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+02-Dec-2018 17:41:21.346 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+02-Dec-2018 17:41:21.347 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Dec-2018 17:41:21.347 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_191\jre
+02-Dec-2018 17:41:21.348 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+02-Dec-2018 17:41:21.348 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Dec-2018 17:41:21.348 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\응용\jungtongpro\apache-tomcat-9.0.13
+02-Dec-2018 17:41:21.349 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\응용\jungtongpro\apache-tomcat-9.0.13
+02-Dec-2018 17:41:21.350 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\응용\jungtongpro\apache-tomcat-9.0.13\conf\logging.properties
+02-Dec-2018 17:41:21.350 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Dec-2018 17:41:21.351 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Dec-2018 17:41:21.351 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Dec-2018 17:41:21.352 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Dec-2018 17:41:21.352 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\응용\jungtongpro\apache-tomcat-9.0.13
+02-Dec-2018 17:41:21.354 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\응용\jungtongpro\apache-tomcat-9.0.13
+02-Dec-2018 17:41:21.355 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\응용\jungtongpro\apache-tomcat-9.0.13\temp
+02-Dec-2018 17:41:21.356 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\cbg17\AppData\Local\Microsoft\WindowsApps;;.]
+02-Dec-2018 17:41:21.530 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Dec-2018 17:41:21.874 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Dec-2018 17:41:21.904 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Dec-2018 17:41:21.908 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Dec-2018 17:41:21.909 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1089 ms
+02-Dec-2018 17:41:21.979 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Dec-2018 17:41:21.980 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+02-Dec-2018 17:41:22.016 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\ROOT.war]
+02-Dec-2018 17:41:22.651 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Dec-2018 17:41:22.708 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\ROOT.war] has finished in [691] ms
+02-Dec-2018 17:41:22.709 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\docs]
+02-Dec-2018 17:41:22.934 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Dec-2018 17:41:22.939 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\docs] has finished in [230] ms
+02-Dec-2018 17:41:22.940 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\examples]
+02-Dec-2018 17:41:23.401 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Dec-2018 17:41:23.472 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\examples] has finished in [531] ms
+02-Dec-2018 17:41:23.472 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\host-manager]
+02-Dec-2018 17:41:23.706 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Dec-2018 17:41:23.716 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\host-manager] has finished in [243] ms
+02-Dec-2018 17:41:23.717 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\manager]
+02-Dec-2018 17:41:23.902 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Dec-2018 17:41:23.908 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\manager] has finished in [191] ms
+02-Dec-2018 17:41:23.913 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Dec-2018 17:41:23.929 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+02-Dec-2018 17:41:23.936 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 2025 ms
+02-Dec-2018 17:41:37.998 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Dec-2018 17:41:37.999 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Dec-2018 17:41:38.374 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Dec-2018 17:41:38.711 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Dec-2018 17:41:38.749 경고 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+02-Dec-2018 17:41:38.798 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Dec-2018 17:41:38.806 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Dec-2018 17:41:38.810 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Dec-2018 17:41:38.812 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+02-Dec-2018 17:42:24.834 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+02-Dec-2018 17:42:24.838 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+02-Dec-2018 17:42:24.839 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+02-Dec-2018 17:42:24.839 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+02-Dec-2018 17:42:24.843 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+02-Dec-2018 17:42:24.844 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Dec-2018 17:42:24.844 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_191\jre
+02-Dec-2018 17:42:24.845 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+02-Dec-2018 17:42:24.845 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Dec-2018 17:42:24.845 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\응용\jungtongpro\apache-tomcat-9.0.13
+02-Dec-2018 17:42:24.846 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\응용\jungtongpro\apache-tomcat-9.0.13
+02-Dec-2018 17:42:24.846 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\응용\jungtongpro\apache-tomcat-9.0.13\conf\logging.properties
+02-Dec-2018 17:42:24.847 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Dec-2018 17:42:24.847 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Dec-2018 17:42:24.847 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Dec-2018 17:42:24.848 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Dec-2018 17:42:24.848 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\응용\jungtongpro\apache-tomcat-9.0.13
+02-Dec-2018 17:42:24.849 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\응용\jungtongpro\apache-tomcat-9.0.13
+02-Dec-2018 17:42:24.850 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\응용\jungtongpro\apache-tomcat-9.0.13\temp
+02-Dec-2018 17:42:24.851 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\cbg17\AppData\Local\Microsoft\WindowsApps;;.]
+02-Dec-2018 17:42:25.041 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Dec-2018 17:42:25.351 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Dec-2018 17:42:25.376 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Dec-2018 17:42:25.380 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Dec-2018 17:42:25.383 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1121 ms
+02-Dec-2018 17:42:25.448 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Dec-2018 17:42:25.449 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+02-Dec-2018 17:42:25.478 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\ROOT.war]
+02-Dec-2018 17:42:26.116 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Dec-2018 17:42:26.171 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\ROOT.war] has finished in [693] ms
+02-Dec-2018 17:42:26.172 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\docs]
+02-Dec-2018 17:42:26.392 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Dec-2018 17:42:26.396 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\docs] has finished in [224] ms
+02-Dec-2018 17:42:26.397 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\examples]
+02-Dec-2018 17:42:26.961 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Dec-2018 17:42:27.029 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\examples] has finished in [632] ms
+02-Dec-2018 17:42:27.031 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\host-manager]
+02-Dec-2018 17:42:27.231 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Dec-2018 17:42:27.239 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\host-manager] has finished in [209] ms
+02-Dec-2018 17:42:27.240 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\manager]
+02-Dec-2018 17:42:27.417 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Dec-2018 17:42:27.422 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\manager] has finished in [181] ms
+02-Dec-2018 17:42:27.427 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Dec-2018 17:42:27.438 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+02-Dec-2018 17:42:27.443 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 2058 ms
+02-Dec-2018 17:42:52.539 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Dec-2018 17:42:52.541 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Dec-2018 17:42:52.922 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Dec-2018 17:42:53.241 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Dec-2018 17:42:53.301 경고 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+02-Dec-2018 17:42:53.343 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Dec-2018 17:42:53.347 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Dec-2018 17:42:53.350 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Dec-2018 17:42:53.352 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

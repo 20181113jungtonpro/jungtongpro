@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" 
 	pageEncoding="UTF-8" %>
+	<% request.setCharacterEncoding("utf-8"); %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +12,7 @@
 </head>
 
 <body>
-
+	<% String id = request.getParameter("search_thing"); %>
     <div id="top" class="bar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <img src="./assets/dic.png" id="dic">
@@ -21,12 +22,14 @@
         <input type="text" name="search_thing" id="search_input"><input type="submit" value="검색" id="search_button">
     </form>
     <div id="contents">
-        <!--이 안에 jsp for 문으로 넣어-->
         <table>
             <thead></thead>
             <tbody>
                 <tr>
-                    <td class="title">q</td>
+                	<!-- 제목 -->
+                    <h1><%= id %></h1>
+                    <hr>
+                    <!-- 내용 -->
                     <td class="texts">ad</td>
                 </tr>
             </tbody>
