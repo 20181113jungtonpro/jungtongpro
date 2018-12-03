@@ -41,7 +41,7 @@
         <input type="text" name="search_thing" id="search_input">
         <input type="submit" value="검색" id="search_button">
     </form>
-<a href="https://github.com/20181113jungtonpro/jungtongpro/tree/Lansional"><img id="github" src="./assets/yui.jpg" alt="github link"></a>
+<a href="https://github.com/20181113jungtonpro/jungtongpro/tree/Lansional" id="github" ><img id = "yui" src="./assets/yui.jpg" alt="github link"></a>
 </body>
 
 </html>

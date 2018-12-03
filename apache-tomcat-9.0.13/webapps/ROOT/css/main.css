@@ -42,3 +42,15 @@ body {
     width: 10%;
     float: right;
 }
+#github{
+    position: fixed;
+    bottom: 0;
+    float: right;
+    right: 0;
+    margin: 0;
+    
+}
+#yui{
+    border-radius: 100%;
+    border: dotted red;
+}
