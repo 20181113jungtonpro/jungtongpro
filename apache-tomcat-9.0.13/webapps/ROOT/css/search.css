@@ -39,4 +39,8 @@ body{
   width: 10%;
   float: right;
 }
+#contents h1:hover{
+  opacity: 60%;
+  color: blue;
+}
 /*# sourceMappingURL=search.css.map */
