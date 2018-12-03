@@ -11,21 +11,22 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 <body>
+
     <div id="top" class="bar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <img src="./assets/dic.png" id="dic">
         <p id="text">Linux Dictionary</p>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
     <br>
     <br>
     <br>
@@ -37,6 +38,7 @@
         <input type="text" name="search_thing" id="search_input">
         <input type="submit" value="검색" id="search_button">
     </form>
-    
+
 </body>
+
 </html>

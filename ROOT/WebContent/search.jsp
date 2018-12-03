@@ -17,11 +17,12 @@
 
 <body>
 	<% String id = request.getParameter("search_thing"); %>
-    <div id="top" class="bar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="./index.jsp" style=" text-decoration:none 
+	"><div id="top" class="bar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <img src="./assets/dic.png" id="dic">
         <p id="text">Linux Dictionary</p>
-    </div>
+    </div></a>
     <form action="search.jsp" method="GET" id="search_bar">
         <input type="text" name="search_thing" id="search_input">
         <input type="submit" value="검색" id="search_button">

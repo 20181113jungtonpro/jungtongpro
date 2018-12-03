@@ -6,6 +6,7 @@
 		<item value="Apache Tomcat v9.0"/>
 	</list>
 	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="C:\응용\jungtongpro\apache-tomcat-9.0.13\webapps\ROOT.war"/>
 		<item value="C:\응용\apache-tomcat-9.0.13\webapps\ROOT.war"/>
 	</list>
 </section>
