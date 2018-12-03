@@ -18,8 +18,7 @@
 <body>
 	<% String id = request.getParameter("search_thing"); %>
     <a href="./index.jsp" style=" text-decoration:none 
-	"><div id="top" class="bar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	"><div id="top" class="bar">
         <img src="./assets/dic.png" id="dic">
         <p id="text">Linux Dictionary</p>
     </div></a>

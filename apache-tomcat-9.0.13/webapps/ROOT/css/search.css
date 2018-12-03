@@ -3,7 +3,9 @@
   color: white;
   margin: 0;
   font-size: 2rem;
+  text-align: center;
   }
+ 
   .bar #dic {
     height: 4vh; }
   .bar #text {

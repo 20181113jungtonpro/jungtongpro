@@ -1,23 +1,27 @@
 body {
     margin: 0;
+    background-color: red;
 }
 
 .bar {
     background-color: #01a6bc;
     color: white;
     margin: 0;
-    font-size: 2rem;
+    font-size: 6rem;
     margin: 1vh;
+    
+   
 }
 
 #dic {
-    height: 4vh;
+    height: 6vh;
 }
 
 #text {
     display: inline-block;
     height: 6vh;
     margin: 0;
+    
 }
 
 #search_bar {

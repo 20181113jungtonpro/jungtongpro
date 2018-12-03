@@ -1673,3 +1673,785 @@ Caused by: java.net.BindException: Address already in use: bind
 03-Dec-2018 17:41:53.615 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
 03-Dec-2018 17:41:53.620 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
 03-Dec-2018 17:41:53.623 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 20:38:06.289 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+03-Dec-2018 20:38:09.440 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+03-Dec-2018 20:38:09.442 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+03-Dec-2018 20:38:09.442 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Dec-2018 20:38:09.442 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Dec-2018 20:38:09.442 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2018 20:38:09.443 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_191\jre
+03-Dec-2018 20:38:09.443 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+03-Dec-2018 20:38:09.443 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2018 20:38:09.443 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 20:38:09.443 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 20:38:09.443 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\conf\logging.properties
+03-Dec-2018 20:38:09.443 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2018 20:38:09.443 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Dec-2018 20:38:09.444 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Dec-2018 20:38:09.444 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Dec-2018 20:38:09.444 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 20:38:09.445 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 20:38:09.445 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\temp
+03-Dec-2018 20:38:09.446 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\yuicraft\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\yuicraft\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yuicraft\AppData\Roaming\npm;C:\Program Files\JetBrains\RubyMine 2018.3\bin;;.]
+03-Dec-2018 20:38:10.200 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 20:38:10.324 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 20:38:10.334 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 20:38:10.336 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 20:38:10.338 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 4362 ms
+03-Dec-2018 20:38:10.391 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Dec-2018 20:38:10.392 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+03-Dec-2018 20:38:10.404 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs]
+03-Dec-2018 20:38:10.666 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs] has finished in [262] ms
+03-Dec-2018 20:38:10.667 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples]
+03-Dec-2018 20:38:11.986 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples] has finished in [1,319] ms
+03-Dec-2018 20:38:11.986 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager]
+03-Dec-2018 20:38:12.022 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager] has finished in [36] ms
+03-Dec-2018 20:38:12.023 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager]
+03-Dec-2018 20:38:12.057 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager] has finished in [34] ms
+03-Dec-2018 20:38:12.058 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT]
+03-Dec-2018 20:38:12.107 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT] has finished in [50] ms
+03-Dec-2018 20:38:12.110 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 20:38:12.118 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 20:38:12.121 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 1781 ms
+03-Dec-2018 20:57:18.592 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Dec-2018 20:57:18.593 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 20:57:18.702 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 20:57:18.816 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Dec-2018 20:57:18.850 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 20:57:18.853 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 20:57:18.856 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 20:57:18.857 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 20:57:20.971 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+03-Dec-2018 20:57:20.978 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+03-Dec-2018 20:57:20.978 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+03-Dec-2018 20:57:20.978 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Dec-2018 20:57:20.978 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Dec-2018 20:57:20.978 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2018 20:57:20.979 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_191\jre
+03-Dec-2018 20:57:20.979 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+03-Dec-2018 20:57:20.979 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2018 20:57:20.979 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 20:57:20.979 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 20:57:20.980 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\conf\logging.properties
+03-Dec-2018 20:57:20.980 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2018 20:57:20.980 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Dec-2018 20:57:20.981 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Dec-2018 20:57:20.981 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Dec-2018 20:57:20.981 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 20:57:20.983 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 20:57:20.983 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\temp
+03-Dec-2018 20:57:20.984 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\yuicraft\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\yuicraft\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yuicraft\AppData\Roaming\npm;C:\Program Files\JetBrains\RubyMine 2018.3\bin;;.]
+03-Dec-2018 20:57:21.136 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 20:57:21.294 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 20:57:21.307 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 20:57:21.309 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 20:57:21.309 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 851 ms
+03-Dec-2018 20:57:21.351 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Dec-2018 20:57:21.351 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+03-Dec-2018 20:57:21.369 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs]
+03-Dec-2018 20:57:21.670 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs] has finished in [300] ms
+03-Dec-2018 20:57:21.670 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples]
+03-Dec-2018 20:57:22.131 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples] has finished in [461] ms
+03-Dec-2018 20:57:22.133 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager]
+03-Dec-2018 20:57:22.174 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager] has finished in [40] ms
+03-Dec-2018 20:57:22.174 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager]
+03-Dec-2018 20:57:22.213 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager] has finished in [39] ms
+03-Dec-2018 20:57:22.214 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT]
+03-Dec-2018 20:57:22.272 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT] has finished in [58] ms
+03-Dec-2018 20:57:22.276 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 20:57:22.293 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 20:57:22.301 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 990 ms
+03-Dec-2018 21:00:01.557 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Dec-2018 21:00:01.558 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:00:01.690 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:00:01.818 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Dec-2018 21:00:01.860 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:00:01.862 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:00:01.864 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:00:01.865 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:00:03.960 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+03-Dec-2018 21:00:03.966 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+03-Dec-2018 21:00:03.967 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+03-Dec-2018 21:00:03.967 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Dec-2018 21:00:03.968 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Dec-2018 21:00:03.968 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2018 21:00:03.969 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_191\jre
+03-Dec-2018 21:00:03.969 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+03-Dec-2018 21:00:03.969 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2018 21:00:03.970 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:00:03.970 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:00:03.970 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\conf\logging.properties
+03-Dec-2018 21:00:03.970 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2018 21:00:03.971 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Dec-2018 21:00:03.971 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Dec-2018 21:00:03.971 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Dec-2018 21:00:03.971 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:00:03.973 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:00:03.973 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\temp
+03-Dec-2018 21:00:03.974 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\yuicraft\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\yuicraft\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yuicraft\AppData\Roaming\npm;C:\Program Files\JetBrains\RubyMine 2018.3\bin;;.]
+03-Dec-2018 21:00:04.148 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:00:04.331 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:00:04.347 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:00:04.348 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:00:04.349 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 921 ms
+03-Dec-2018 21:00:04.397 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Dec-2018 21:00:04.398 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+03-Dec-2018 21:00:04.412 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs]
+03-Dec-2018 21:00:04.733 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs] has finished in [320] ms
+03-Dec-2018 21:00:04.733 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples]
+03-Dec-2018 21:00:05.152 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples] has finished in [419] ms
+03-Dec-2018 21:00:05.153 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager]
+03-Dec-2018 21:00:05.199 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager] has finished in [45] ms
+03-Dec-2018 21:00:05.199 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager]
+03-Dec-2018 21:00:05.243 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager] has finished in [44] ms
+03-Dec-2018 21:00:05.243 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT]
+03-Dec-2018 21:00:05.312 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT] has finished in [69] ms
+03-Dec-2018 21:00:05.316 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:00:05.336 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:00:05.344 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 994 ms
+03-Dec-2018 21:00:35.426 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Dec-2018 21:00:35.427 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:00:35.560 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:00:35.692 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Dec-2018 21:00:35.736 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:00:35.738 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:00:35.740 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:00:35.741 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:00:37.695 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+03-Dec-2018 21:00:37.701 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+03-Dec-2018 21:00:37.701 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+03-Dec-2018 21:00:37.702 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Dec-2018 21:00:37.702 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Dec-2018 21:00:37.702 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2018 21:00:37.702 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_191\jre
+03-Dec-2018 21:00:37.703 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+03-Dec-2018 21:00:37.703 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2018 21:00:37.703 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:00:37.703 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:00:37.704 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\conf\logging.properties
+03-Dec-2018 21:00:37.704 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2018 21:00:37.704 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Dec-2018 21:00:37.704 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Dec-2018 21:00:37.704 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Dec-2018 21:00:37.704 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:00:37.706 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:00:37.706 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\temp
+03-Dec-2018 21:00:37.707 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\yuicraft\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\yuicraft\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yuicraft\AppData\Roaming\npm;C:\Program Files\JetBrains\RubyMine 2018.3\bin;;.]
+03-Dec-2018 21:00:37.889 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:00:38.065 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:00:38.080 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:00:38.083 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:00:38.084 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 951 ms
+03-Dec-2018 21:00:38.124 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Dec-2018 21:00:38.124 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+03-Dec-2018 21:00:38.140 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs]
+03-Dec-2018 21:00:38.582 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs] has finished in [442] ms
+03-Dec-2018 21:00:38.583 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples]
+03-Dec-2018 21:00:39.095 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples] has finished in [512] ms
+03-Dec-2018 21:00:39.096 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager]
+03-Dec-2018 21:00:39.138 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager] has finished in [41] ms
+03-Dec-2018 21:00:39.138 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager]
+03-Dec-2018 21:00:39.173 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager] has finished in [35] ms
+03-Dec-2018 21:00:39.174 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT]
+03-Dec-2018 21:00:39.225 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT] has finished in [51] ms
+03-Dec-2018 21:00:39.228 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:00:39.240 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:00:39.244 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 1159 ms
+03-Dec-2018 21:02:06.584 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Dec-2018 21:02:06.584 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:02:06.709 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:02:06.843 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Dec-2018 21:02:06.883 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:02:06.884 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:02:06.886 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:02:06.887 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:02:09.513 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+03-Dec-2018 21:02:09.518 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+03-Dec-2018 21:02:09.518 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+03-Dec-2018 21:02:09.518 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Dec-2018 21:02:09.518 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Dec-2018 21:02:09.519 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2018 21:02:09.519 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_191\jre
+03-Dec-2018 21:02:09.519 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+03-Dec-2018 21:02:09.519 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2018 21:02:09.519 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:02:09.520 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:02:09.520 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\conf\logging.properties
+03-Dec-2018 21:02:09.520 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2018 21:02:09.520 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Dec-2018 21:02:09.521 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Dec-2018 21:02:09.521 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Dec-2018 21:02:09.521 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:02:09.522 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:02:09.523 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\temp
+03-Dec-2018 21:02:09.524 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\yuicraft\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\yuicraft\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yuicraft\AppData\Roaming\npm;C:\Program Files\JetBrains\RubyMine 2018.3\bin;;.]
+03-Dec-2018 21:02:09.664 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:02:09.822 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:02:09.836 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:02:09.838 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:02:09.840 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 735 ms
+03-Dec-2018 21:02:09.902 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Dec-2018 21:02:09.903 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+03-Dec-2018 21:02:09.924 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs]
+03-Dec-2018 21:02:10.267 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs] has finished in [342] ms
+03-Dec-2018 21:02:10.268 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples]
+03-Dec-2018 21:02:10.699 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples] has finished in [431] ms
+03-Dec-2018 21:02:10.699 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager]
+03-Dec-2018 21:02:10.740 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager] has finished in [40] ms
+03-Dec-2018 21:02:10.740 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager]
+03-Dec-2018 21:02:10.772 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager] has finished in [32] ms
+03-Dec-2018 21:02:10.773 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT]
+03-Dec-2018 21:02:10.824 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT] has finished in [50] ms
+03-Dec-2018 21:02:10.826 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:02:10.837 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:02:10.841 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 998 ms
+03-Dec-2018 21:03:16.662 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Dec-2018 21:03:16.662 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:03:16.806 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:03:16.940 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Dec-2018 21:03:16.983 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:03:16.984 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:03:16.985 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:03:16.988 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:03:18.500 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+03-Dec-2018 21:03:18.505 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+03-Dec-2018 21:03:18.506 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+03-Dec-2018 21:03:18.506 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Dec-2018 21:03:18.506 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Dec-2018 21:03:18.507 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2018 21:03:18.507 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_191\jre
+03-Dec-2018 21:03:18.507 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+03-Dec-2018 21:03:18.507 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2018 21:03:18.508 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:03:18.508 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:03:18.508 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\conf\logging.properties
+03-Dec-2018 21:03:18.509 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2018 21:03:18.509 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Dec-2018 21:03:18.509 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Dec-2018 21:03:18.510 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Dec-2018 21:03:18.510 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:03:18.511 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:03:18.511 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\temp
+03-Dec-2018 21:03:18.512 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\yuicraft\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\yuicraft\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yuicraft\AppData\Roaming\npm;C:\Program Files\JetBrains\RubyMine 2018.3\bin;;.]
+03-Dec-2018 21:03:18.690 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:03:18.892 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:03:18.911 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:03:18.916 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:03:18.917 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 890 ms
+03-Dec-2018 21:03:18.976 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Dec-2018 21:03:18.977 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+03-Dec-2018 21:03:18.997 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs]
+03-Dec-2018 21:03:19.374 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs] has finished in [376] ms
+03-Dec-2018 21:03:19.375 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples]
+03-Dec-2018 21:03:19.780 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples] has finished in [405] ms
+03-Dec-2018 21:03:19.780 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager]
+03-Dec-2018 21:03:19.818 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager] has finished in [38] ms
+03-Dec-2018 21:03:19.818 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager]
+03-Dec-2018 21:03:19.854 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager] has finished in [36] ms
+03-Dec-2018 21:03:19.855 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT]
+03-Dec-2018 21:03:19.917 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT] has finished in [62] ms
+03-Dec-2018 21:03:19.921 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:03:19.934 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:03:19.939 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 1021 ms
+03-Dec-2018 21:04:18.120 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Dec-2018 21:04:18.121 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:04:18.264 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:04:18.392 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Dec-2018 21:04:18.431 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:04:18.432 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:04:18.435 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:04:18.437 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:04:20.518 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+03-Dec-2018 21:04:20.524 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+03-Dec-2018 21:04:20.524 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+03-Dec-2018 21:04:20.524 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Dec-2018 21:04:20.525 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Dec-2018 21:04:20.525 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2018 21:04:20.525 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_191\jre
+03-Dec-2018 21:04:20.525 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+03-Dec-2018 21:04:20.525 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2018 21:04:20.525 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:04:20.526 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:04:20.526 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\conf\logging.properties
+03-Dec-2018 21:04:20.526 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2018 21:04:20.526 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Dec-2018 21:04:20.527 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Dec-2018 21:04:20.527 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Dec-2018 21:04:20.527 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:04:20.529 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:04:20.531 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\temp
+03-Dec-2018 21:04:20.531 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\yuicraft\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\yuicraft\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yuicraft\AppData\Roaming\npm;C:\Program Files\JetBrains\RubyMine 2018.3\bin;;.]
+03-Dec-2018 21:04:20.695 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:04:20.863 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:04:20.879 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:04:20.882 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:04:20.883 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 922 ms
+03-Dec-2018 21:04:20.933 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Dec-2018 21:04:20.933 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+03-Dec-2018 21:04:20.947 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs]
+03-Dec-2018 21:04:21.277 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs] has finished in [329] ms
+03-Dec-2018 21:04:21.278 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples]
+03-Dec-2018 21:04:21.752 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples] has finished in [474] ms
+03-Dec-2018 21:04:21.753 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager]
+03-Dec-2018 21:04:21.796 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager] has finished in [43] ms
+03-Dec-2018 21:04:21.797 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager]
+03-Dec-2018 21:04:21.832 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager] has finished in [35] ms
+03-Dec-2018 21:04:21.833 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT]
+03-Dec-2018 21:04:21.893 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT] has finished in [60] ms
+03-Dec-2018 21:04:21.897 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:04:21.915 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:04:21.919 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 1035 ms
+03-Dec-2018 21:05:33.999 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Dec-2018 21:05:33.999 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:05:34.134 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:05:34.263 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Dec-2018 21:05:34.310 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:05:34.312 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:05:34.315 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:05:34.317 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:05:36.491 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+03-Dec-2018 21:05:44.447 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+03-Dec-2018 21:05:44.448 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+03-Dec-2018 21:05:44.448 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Dec-2018 21:05:44.448 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Dec-2018 21:05:44.449 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2018 21:05:44.449 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_191\jre
+03-Dec-2018 21:05:44.449 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+03-Dec-2018 21:05:44.449 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2018 21:05:44.449 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:05:44.449 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:05:44.450 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\conf\logging.properties
+03-Dec-2018 21:05:44.450 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2018 21:05:44.450 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Dec-2018 21:05:44.450 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Dec-2018 21:05:44.450 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Dec-2018 21:05:44.451 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:05:44.453 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:05:44.453 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\temp
+03-Dec-2018 21:05:44.455 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\yuicraft\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\yuicraft\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yuicraft\AppData\Roaming\npm;C:\Program Files\JetBrains\RubyMine 2018.3\bin;;.]
+03-Dec-2018 21:05:44.562 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:05:44.724 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:05:44.733 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:05:44.736 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:05:44.737 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 8769 ms
+03-Dec-2018 21:05:44.780 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Dec-2018 21:05:44.781 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+03-Dec-2018 21:05:44.797 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs]
+03-Dec-2018 21:05:45.132 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs] has finished in [334] ms
+03-Dec-2018 21:05:45.133 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples]
+03-Dec-2018 21:05:45.601 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples] has finished in [469] ms
+03-Dec-2018 21:05:45.602 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager]
+03-Dec-2018 21:05:45.639 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager] has finished in [37] ms
+03-Dec-2018 21:05:45.639 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager]
+03-Dec-2018 21:05:45.672 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager] has finished in [33] ms
+03-Dec-2018 21:05:45.672 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT]
+03-Dec-2018 21:05:45.729 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT] has finished in [56] ms
+03-Dec-2018 21:05:45.732 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:05:45.745 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:05:45.748 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 1011 ms
+03-Dec-2018 21:07:00.230 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Dec-2018 21:07:00.231 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:07:00.359 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:07:00.478 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Dec-2018 21:07:00.524 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:07:00.528 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:07:00.533 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:07:00.535 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:07:01.883 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+03-Dec-2018 21:07:01.888 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+03-Dec-2018 21:07:01.888 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+03-Dec-2018 21:07:01.888 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Dec-2018 21:07:01.888 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Dec-2018 21:07:01.889 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2018 21:07:01.889 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_191\jre
+03-Dec-2018 21:07:01.889 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+03-Dec-2018 21:07:01.889 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2018 21:07:01.889 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:07:01.890 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:07:01.890 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\conf\logging.properties
+03-Dec-2018 21:07:01.890 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2018 21:07:01.891 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Dec-2018 21:07:01.891 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Dec-2018 21:07:01.891 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Dec-2018 21:07:01.891 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:07:01.892 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:07:01.892 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\temp
+03-Dec-2018 21:07:01.893 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\yuicraft\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\yuicraft\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yuicraft\AppData\Roaming\npm;C:\Program Files\JetBrains\RubyMine 2018.3\bin;;.]
+03-Dec-2018 21:07:02.046 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:07:02.215 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:07:02.228 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:07:02.231 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:07:02.232 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 738 ms
+03-Dec-2018 21:07:02.280 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Dec-2018 21:07:02.280 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+03-Dec-2018 21:07:02.293 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs]
+03-Dec-2018 21:07:02.605 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs] has finished in [312] ms
+03-Dec-2018 21:07:02.606 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples]
+03-Dec-2018 21:07:03.017 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples] has finished in [411] ms
+03-Dec-2018 21:07:03.018 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager]
+03-Dec-2018 21:07:03.060 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager] has finished in [43] ms
+03-Dec-2018 21:07:03.061 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager]
+03-Dec-2018 21:07:03.095 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager] has finished in [33] ms
+03-Dec-2018 21:07:03.095 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT]
+03-Dec-2018 21:07:03.152 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT] has finished in [57] ms
+03-Dec-2018 21:07:03.158 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:07:03.174 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:07:03.179 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 943 ms
+03-Dec-2018 21:07:29.994 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Dec-2018 21:07:29.996 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:07:30.132 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:07:30.240 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Dec-2018 21:07:30.278 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:07:30.281 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:07:30.283 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:07:30.285 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:07:31.858 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+03-Dec-2018 21:07:31.863 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+03-Dec-2018 21:07:31.863 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+03-Dec-2018 21:07:31.863 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Dec-2018 21:07:31.863 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Dec-2018 21:07:31.864 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2018 21:07:31.864 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_191\jre
+03-Dec-2018 21:07:31.864 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+03-Dec-2018 21:07:31.865 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2018 21:07:31.865 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:07:31.865 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:07:31.865 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\conf\logging.properties
+03-Dec-2018 21:07:31.866 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2018 21:07:31.866 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Dec-2018 21:07:31.866 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Dec-2018 21:07:31.866 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Dec-2018 21:07:31.866 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:07:31.868 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:07:31.868 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\temp
+03-Dec-2018 21:07:31.869 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\yuicraft\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\yuicraft\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yuicraft\AppData\Roaming\npm;C:\Program Files\JetBrains\RubyMine 2018.3\bin;;.]
+03-Dec-2018 21:07:32.010 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:07:32.173 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:07:32.186 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:07:32.188 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:07:32.189 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 740 ms
+03-Dec-2018 21:07:32.229 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Dec-2018 21:07:32.230 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+03-Dec-2018 21:07:32.246 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs]
+03-Dec-2018 21:07:32.596 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs] has finished in [349] ms
+03-Dec-2018 21:07:32.597 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples]
+03-Dec-2018 21:07:33.028 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples] has finished in [430] ms
+03-Dec-2018 21:07:33.028 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager]
+03-Dec-2018 21:07:33.072 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager] has finished in [44] ms
+03-Dec-2018 21:07:33.072 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager]
+03-Dec-2018 21:07:33.107 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager] has finished in [35] ms
+03-Dec-2018 21:07:33.108 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT]
+03-Dec-2018 21:07:33.172 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT] has finished in [63] ms
+03-Dec-2018 21:07:33.175 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:07:33.189 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:07:33.194 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 1004 ms
+03-Dec-2018 21:08:17.742 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Dec-2018 21:08:17.742 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:08:17.879 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:08:18.005 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Dec-2018 21:08:18.050 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:08:18.052 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:08:18.054 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:08:18.056 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:08:19.468 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+03-Dec-2018 21:08:19.473 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+03-Dec-2018 21:08:19.473 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+03-Dec-2018 21:08:19.474 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Dec-2018 21:08:19.474 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Dec-2018 21:08:19.474 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2018 21:08:19.474 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_191\jre
+03-Dec-2018 21:08:19.475 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+03-Dec-2018 21:08:19.475 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2018 21:08:19.475 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:08:19.475 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:08:19.476 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\conf\logging.properties
+03-Dec-2018 21:08:19.476 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2018 21:08:19.476 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Dec-2018 21:08:19.477 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Dec-2018 21:08:19.477 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Dec-2018 21:08:19.477 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:08:19.478 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:08:19.479 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\temp
+03-Dec-2018 21:08:19.479 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\yuicraft\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\yuicraft\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yuicraft\AppData\Roaming\npm;C:\Program Files\JetBrains\RubyMine 2018.3\bin;;.]
+03-Dec-2018 21:08:19.639 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:08:19.809 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:08:19.821 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:08:19.824 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:08:19.825 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 809 ms
+03-Dec-2018 21:08:19.871 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Dec-2018 21:08:19.871 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+03-Dec-2018 21:08:19.887 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs]
+03-Dec-2018 21:08:20.196 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs] has finished in [309] ms
+03-Dec-2018 21:08:20.197 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples]
+03-Dec-2018 21:08:20.600 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples] has finished in [403] ms
+03-Dec-2018 21:08:20.601 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager]
+03-Dec-2018 21:08:20.642 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager] has finished in [41] ms
+03-Dec-2018 21:08:20.643 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager]
+03-Dec-2018 21:08:20.678 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager] has finished in [35] ms
+03-Dec-2018 21:08:20.679 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT]
+03-Dec-2018 21:08:20.733 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT] has finished in [54] ms
+03-Dec-2018 21:08:20.736 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:08:20.752 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:08:20.757 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 931 ms
+03-Dec-2018 21:11:31.833 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Dec-2018 21:11:31.834 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:11:31.957 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:11:32.079 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Dec-2018 21:11:32.122 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:11:32.124 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:11:32.126 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:11:32.129 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:11:33.967 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+03-Dec-2018 21:11:33.972 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+03-Dec-2018 21:11:33.972 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+03-Dec-2018 21:11:33.972 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Dec-2018 21:11:33.972 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Dec-2018 21:11:33.973 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2018 21:11:33.973 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_191\jre
+03-Dec-2018 21:11:33.973 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+03-Dec-2018 21:11:33.973 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2018 21:11:33.973 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:11:33.974 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:11:33.974 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\conf\logging.properties
+03-Dec-2018 21:11:33.975 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2018 21:11:33.975 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Dec-2018 21:11:33.975 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Dec-2018 21:11:33.975 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Dec-2018 21:11:33.976 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:11:33.977 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:11:33.977 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\temp
+03-Dec-2018 21:11:33.978 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\yuicraft\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\yuicraft\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yuicraft\AppData\Roaming\npm;C:\Program Files\JetBrains\RubyMine 2018.3\bin;;.]
+03-Dec-2018 21:11:34.101 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:11:34.265 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:11:34.277 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:11:34.281 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:11:34.282 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 756 ms
+03-Dec-2018 21:11:34.320 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Dec-2018 21:11:34.321 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+03-Dec-2018 21:11:34.333 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs]
+03-Dec-2018 21:11:34.623 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs] has finished in [289] ms
+03-Dec-2018 21:11:34.623 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples]
+03-Dec-2018 21:11:35.047 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples] has finished in [424] ms
+03-Dec-2018 21:11:35.048 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager]
+03-Dec-2018 21:11:35.084 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager] has finished in [36] ms
+03-Dec-2018 21:11:35.085 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager]
+03-Dec-2018 21:11:35.120 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager] has finished in [35] ms
+03-Dec-2018 21:11:35.121 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT]
+03-Dec-2018 21:11:35.171 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT] has finished in [50] ms
+03-Dec-2018 21:11:35.174 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:11:35.187 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:11:35.190 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 907 ms
+03-Dec-2018 21:18:53.635 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Dec-2018 21:18:53.636 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:18:53.778 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:18:53.901 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Dec-2018 21:18:53.944 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:18:53.946 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:18:53.949 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:18:53.952 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:18:55.462 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+03-Dec-2018 21:18:55.468 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+03-Dec-2018 21:18:55.469 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+03-Dec-2018 21:18:55.469 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Dec-2018 21:18:55.469 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Dec-2018 21:18:55.469 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2018 21:18:55.470 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_191\jre
+03-Dec-2018 21:18:55.470 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+03-Dec-2018 21:18:55.470 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2018 21:18:55.470 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:18:55.470 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:18:55.471 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\conf\logging.properties
+03-Dec-2018 21:18:55.471 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2018 21:18:55.471 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Dec-2018 21:18:55.471 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Dec-2018 21:18:55.472 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Dec-2018 21:18:55.472 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:18:55.474 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:18:55.474 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\temp
+03-Dec-2018 21:18:55.475 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\yuicraft\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\yuicraft\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yuicraft\AppData\Roaming\npm;C:\Program Files\JetBrains\RubyMine 2018.3\bin;;.]
+03-Dec-2018 21:18:55.637 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:18:55.819 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:18:55.835 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:18:55.840 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:18:55.842 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 888 ms
+03-Dec-2018 21:18:55.908 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Dec-2018 21:18:55.909 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+03-Dec-2018 21:18:55.930 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs]
+03-Dec-2018 21:18:56.379 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs] has finished in [448] ms
+03-Dec-2018 21:18:56.380 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples]
+03-Dec-2018 21:18:56.947 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples] has finished in [568] ms
+03-Dec-2018 21:18:56.948 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager]
+03-Dec-2018 21:18:57.004 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager] has finished in [55] ms
+03-Dec-2018 21:18:57.004 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager]
+03-Dec-2018 21:18:57.055 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager] has finished in [50] ms
+03-Dec-2018 21:18:57.055 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT]
+03-Dec-2018 21:18:57.131 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT] has finished in [76] ms
+03-Dec-2018 21:18:57.137 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:18:57.156 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:18:57.162 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 1319 ms
+03-Dec-2018 21:26:48.956 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Dec-2018 21:26:48.957 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:26:49.093 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:26:49.221 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Dec-2018 21:26:49.260 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:26:49.262 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:26:49.265 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:26:49.266 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:26:51.364 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+03-Dec-2018 21:26:51.369 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+03-Dec-2018 21:26:51.369 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+03-Dec-2018 21:26:51.369 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Dec-2018 21:26:51.369 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Dec-2018 21:26:51.369 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2018 21:26:51.370 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_191\jre
+03-Dec-2018 21:26:51.370 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+03-Dec-2018 21:26:51.370 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2018 21:26:51.370 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:26:51.370 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:26:51.371 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\conf\logging.properties
+03-Dec-2018 21:26:51.371 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2018 21:26:51.371 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Dec-2018 21:26:51.371 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Dec-2018 21:26:51.371 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Dec-2018 21:26:51.372 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:26:51.373 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:26:51.373 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\temp
+03-Dec-2018 21:26:51.374 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\yuicraft\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\yuicraft\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yuicraft\AppData\Roaming\npm;C:\Program Files\JetBrains\RubyMine 2018.3\bin;;.]
+03-Dec-2018 21:26:51.520 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:26:51.689 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:26:51.702 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:26:51.704 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:26:51.705 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 754 ms
+03-Dec-2018 21:26:51.749 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Dec-2018 21:26:51.749 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+03-Dec-2018 21:26:51.763 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs]
+03-Dec-2018 21:26:52.067 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs] has finished in [304] ms
+03-Dec-2018 21:26:52.068 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples]
+03-Dec-2018 21:26:52.504 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples] has finished in [436] ms
+03-Dec-2018 21:26:52.504 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager]
+03-Dec-2018 21:26:52.550 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager] has finished in [46] ms
+03-Dec-2018 21:26:52.551 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager]
+03-Dec-2018 21:26:52.584 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager] has finished in [33] ms
+03-Dec-2018 21:26:52.584 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT]
+03-Dec-2018 21:26:52.639 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT] has finished in [55] ms
+03-Dec-2018 21:26:52.644 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:26:52.661 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:26:52.666 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 960 ms
+03-Dec-2018 21:27:24.536 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Dec-2018 21:27:24.536 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:27:24.686 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:27:24.831 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Dec-2018 21:27:24.876 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:27:24.878 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:27:24.880 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:27:24.881 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:27:30.325 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+03-Dec-2018 21:27:30.330 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+03-Dec-2018 21:27:30.330 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+03-Dec-2018 21:27:30.331 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Dec-2018 21:27:30.331 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Dec-2018 21:27:30.331 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2018 21:27:30.331 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_191\jre
+03-Dec-2018 21:27:30.331 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+03-Dec-2018 21:27:30.332 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2018 21:27:30.332 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:27:30.332 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:27:30.332 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\conf\logging.properties
+03-Dec-2018 21:27:30.333 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2018 21:27:30.333 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Dec-2018 21:27:30.333 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Dec-2018 21:27:30.333 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Dec-2018 21:27:30.333 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:27:30.335 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:27:30.335 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\temp
+03-Dec-2018 21:27:30.336 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\yuicraft\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\yuicraft\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yuicraft\AppData\Roaming\npm;C:\Program Files\JetBrains\RubyMine 2018.3\bin;;.]
+03-Dec-2018 21:27:30.488 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:27:30.648 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:27:30.662 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:27:30.665 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:27:30.666 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 825 ms
+03-Dec-2018 21:27:30.709 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Dec-2018 21:27:30.709 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+03-Dec-2018 21:27:30.724 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs]
+03-Dec-2018 21:27:31.078 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs] has finished in [354] ms
+03-Dec-2018 21:27:31.079 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples]
+03-Dec-2018 21:27:31.516 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples] has finished in [436] ms
+03-Dec-2018 21:27:31.516 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager]
+03-Dec-2018 21:27:31.559 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager] has finished in [43] ms
+03-Dec-2018 21:27:31.560 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager]
+03-Dec-2018 21:27:31.591 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager] has finished in [31] ms
+03-Dec-2018 21:27:31.592 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT]
+03-Dec-2018 21:27:31.644 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT] has finished in [52] ms
+03-Dec-2018 21:27:31.647 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:27:31.661 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:27:31.666 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 999 ms
+03-Dec-2018 21:28:52.477 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Dec-2018 21:28:52.478 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:28:52.623 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:28:52.759 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Dec-2018 21:28:52.811 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:28:52.813 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:28:52.816 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:28:52.818 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:28:53.722 심각 [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+03-Dec-2018 21:28:53.725 심각 [main] org.apache.catalina.startup.Catalina.stopServer Catalina.stop: 
+ java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:511)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:403)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:497)
+
+03-Dec-2018 21:28:55.811 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+03-Dec-2018 21:28:55.815 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+03-Dec-2018 21:28:55.816 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+03-Dec-2018 21:28:55.816 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Dec-2018 21:28:55.816 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Dec-2018 21:28:55.816 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Dec-2018 21:28:55.816 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_191\jre
+03-Dec-2018 21:28:55.817 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+03-Dec-2018 21:28:55.817 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Dec-2018 21:28:55.817 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:28:55.817 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:28:55.817 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\conf\logging.properties
+03-Dec-2018 21:28:55.818 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Dec-2018 21:28:55.818 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Dec-2018 21:28:55.818 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Dec-2018 21:28:55.818 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Dec-2018 21:28:55.818 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:28:55.820 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13
+03-Dec-2018 21:28:55.820 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\temp
+03-Dec-2018 21:28:55.821 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\yuicraft\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\yuicraft\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yuicraft\AppData\Roaming\npm;C:\Program Files\JetBrains\RubyMine 2018.3\bin;;.]
+03-Dec-2018 21:28:55.969 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:28:56.147 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:28:56.160 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:28:56.161 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+03-Dec-2018 21:28:56.162 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 795 ms
+03-Dec-2018 21:28:56.216 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Dec-2018 21:28:56.216 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+03-Dec-2018 21:28:56.227 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs]
+03-Dec-2018 21:28:56.535 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\docs] has finished in [307] ms
+03-Dec-2018 21:28:56.536 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples]
+03-Dec-2018 21:28:56.956 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\examples] has finished in [421] ms
+03-Dec-2018 21:28:56.958 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager]
+03-Dec-2018 21:28:57.012 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\host-manager] has finished in [54] ms
+03-Dec-2018 21:28:57.013 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager]
+03-Dec-2018 21:28:57.056 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\manager] has finished in [44] ms
+03-Dec-2018 21:28:57.056 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT]
+03-Dec-2018 21:28:57.115 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\yuicraft\Downloads\jungtongpro-Lansional\apache-tomcat-9.0.13\webapps\ROOT] has finished in [59] ms
+03-Dec-2018 21:28:57.118 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Dec-2018 21:28:57.130 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+03-Dec-2018 21:28:57.134 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 971 ms
