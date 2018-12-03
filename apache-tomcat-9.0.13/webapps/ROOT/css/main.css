@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: red;
+    background-color: #A4A4A4;
 }
 
 .bar {
@@ -9,30 +9,36 @@ body {
     margin: 0;
     font-size: 6rem;
     margin: 1vh;
+}
+
+#search_input {
     
-   
+    width: 85%;
+    height: 100%;
+    font-size: 4vh;
+    
 }
 
 #dic {
-    height: 6vh;
+    height: 10vh;
 }
 
 #text {
     display: inline-block;
     height: 6vh;
     margin: 0;
-    
 }
+
+
 
 #search_bar {
     margin-left: 30%;
-}
-
-#search_input {
-    height: 6vh;
     width: 30vw;
+    height: 8vh;
 }
 
-#search_button {
-    height: 6.8vh;
+#search_button{
+    height: 110%;
+    width: 10%;
+    float: right;
 }

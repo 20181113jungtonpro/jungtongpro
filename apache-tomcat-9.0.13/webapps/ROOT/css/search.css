@@ -1,3 +1,7 @@
+body{
+  background-color: #A4A4A4;
+  
+}
 .bar {
   background-color: #01a6bc;
   color: white;
@@ -15,5 +19,24 @@
     a{ text-decoration:none }
 #search_bar{
   margin: 0;
+}
+#search_input {
+    
+  width: 85%;
+  height: 100%;
+  font-size: 4vh;
+  
+}
+#search_bar {
+  margin-left: 30%;
+  width: 30vw;
+  height: 8vh;
+  float: right;
+}
+
+#search_button{
+  height: 110%;
+  width: 10%;
+  float: right;
 }
 /*# sourceMappingURL=search.css.map */

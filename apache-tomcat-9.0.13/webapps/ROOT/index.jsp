@@ -8,7 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css">
+    
+    <script src="./javascript/main.js"></script>
+    <link rel="stylesheet" href="./css/main.css?after" type="text/css">
 </head>
 
 <br>
@@ -34,6 +36,7 @@
     <br>
     
     <!-- form method="GET" id="search_bar" action="NewFile.jsp" -->
+    
     <form method="GET" id="search_bar" action="search.jsp">
         <input type="text" name="search_thing" id="search_input">
         <input type="submit" value="검색" id="search_button">
