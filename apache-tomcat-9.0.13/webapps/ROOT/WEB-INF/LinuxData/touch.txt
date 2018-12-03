@@ -1,0 +1,21 @@
+touch는 파일의 날짜시간정보를 변경하는 명령어이다.
+즉 아무런 옵션없이 사용하면 서버의 현재시간으로 파일의 최근사용한 시간(access time)과 최근변경 시간(modification time)을 변경한다.
+만약 특정옵션이 사용되지 않는다면 파일의 크기가 0인 빈 파일을 생성한다. -t 라는 옵션을 사용하면 서버의 현재시간이 아닌 지정된 시간으로 파일의 날짜시간정보를 변경한다.
+
+touch [옵션] 파일명 
+
+빈 파일 생성
+Bash:
+touch newfile
+
+현재시간으로 파일 날짜정보 변경
+Bash:
+touch -c newfile
+
+파일의 날짜정보를 마음대로 변경(YYYYMMDDhhmm 형식)
+Bash:
+touch -t 201306141200 newfile  
+
+지정한 파일의 날짜시간정보를 지정한 다른 파일의 날짜시간정보와 동일하게 변경(newfile을 oldfile의 날짜정보와 같게 변경)
+Bash:
+touch -r oldfile newfile
